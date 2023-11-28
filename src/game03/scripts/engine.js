@@ -29,7 +29,7 @@ const playerSides = {
     computer: "computer-cards",
 };
 
-const pathImages = "./src/assets/icons/";
+const pathImages = "./src/game03/assets/icons/";
 
 const cardData = [
     {
@@ -66,7 +66,7 @@ async function getRandomCardId(){
 async function createCardImage(IdCard, fieldSide) {
     const cardImage = document.createElement("img");
     cardImage.setAttribute("height", "100px");
-    cardImage.setAttribute("src", "./src/assets/icons/card-back.png");
+    cardImage.setAttribute("src", "./src/game03/assets/icons/card-back.png");
     cardImage.setAttribute("data-id", IdCard);
     cardImage.classList.add("card");
 
@@ -188,7 +188,7 @@ async function resetDuel(){
 }
 
 async function playAudio(status){
-    const audio = new Audio(`./src/assets/audios/${status}.wav`);
+    const audio = new Audio(`./src/game03/assets/audios/${status}.wav`);
     
     try{
         audio.play();

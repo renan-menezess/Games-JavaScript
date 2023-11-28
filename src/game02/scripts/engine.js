@@ -4,7 +4,7 @@ const keysCheck = document.querySelector(".keys-check input");
 
 
 let mapedKeys = [];
-let audio = new Audio(".src/tunes/a.wav");
+let audio = new Audio(".src/game02/tunes/a.wav");
 
 const playTune = (key) => {
     audio.src = `src/tunes/${key}.wav`;
