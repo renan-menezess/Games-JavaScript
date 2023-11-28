@@ -1,0 +1,53 @@
+.container {
+  border-bottom: 1px solid rgb(94, 20, 92);
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  font-size: 30pt;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Press Start 2P", cursive;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.container-footer {
+  padding-top: 5rem;
+  font-size: 50px;
+}
+
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-image: url("../image/game.jpg");
+  background-size: 100%;
+  min-height: 100vh;
+}
+
+.container-main {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgb(94, 20, 92);
+}
+
+.main-link {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15pt;
+  text-shadow: 2px 2px 5px #000;
+}/*# sourceMappingURL=main.css.map */

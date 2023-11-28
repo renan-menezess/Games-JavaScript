@@ -1,0 +1,24 @@
+$text-color: #000;
+$text-color1: #ff0000;
+$text-color2: #ffffff;
+$background-color3: rgb(94, 20, 92);
+
+
+.container {
+    border-bottom: 1px solid $background-color3;
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    font-size: 30pt;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: "Press Start 2P", cursive;
+    color: $text-color2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 5px $text-color;
+}
+
+
