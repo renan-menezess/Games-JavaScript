@@ -1,5 +1,4 @@
 .container {
-  border-bottom: 1px solid rgb(94, 20, 92);
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
   font-size: 30pt;
@@ -20,20 +19,40 @@ h2 {
   font-size: 50px;
 }
 
+.footer-text-win {
+  opacity: 0.5;
+  color: #03fa7e;
+}
+
+.footer-text-win:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+
+.footer-text-lose {
+  opacity: 0.5;
+  color: #ff0000;
+}
+
+.footer-text-lose:hover {
+  opacity: 0.5;
+  color: #fff;
+}
+
 * {
   font-family: "Press Start 2P", cursive;
 }
 
 body {
-  background-image: url("../image/game.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../image/a.png");
   background-size: 100%;
   min-height: 100vh;
+  background-color: #000;
 }
 
 .container-main {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  border-bottom: 1px solid rgb(94, 20, 92);
 }
 
 .main-link {
@@ -50,4 +69,8 @@ a {
   color: #ffffff;
   font-size: 15pt;
   text-shadow: 2px 2px 5px #000;
+}
+
+a:hover {
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
